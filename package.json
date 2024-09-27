@@ -1,31 +1,26 @@
 {
   "name": "fworld-discord-bot",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "discord bot",
+  "main": "src/main.js",
   "scripts": {
-    "dev": "nodemon",
-    "start": "node dist/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "node src/main"
   },
-  "nodemonConfig": {
-    "watch": [
-      "src"
-    ],
-    "ext": "ts,json",
-    "ignore": [
-      "src/**/*.spec.ts",
-      "src/**/*.test.ts"
-    ],
-    "exec": "ts-node --files src/index.ts"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FLEYreal/FWorld-Discord-Bot.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "SergeyMC9730",
   "license": "ISC",
-  "devDependencies": {
-    "nodemon": "^3.1.7",
-    "typescript": "^5.6.2"
+  "bugs": {
+    "url": "https://github.com/FLEYreal/FWorld-Discord-Bot/issues"
   },
+  "homepage": "https://github.com/FLEYreal/FWorld-Discord-Bot#readme",
   "dependencies": {
-    "ts-node": "^10.9.2"
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5",
+    "sqlite3": "^5.1.7",
+    "ws": "^8.18.0"
   }
 }
