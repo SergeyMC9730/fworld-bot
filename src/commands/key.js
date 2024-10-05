@@ -1,7 +1,7 @@
 const { SlashCommandBuilder, Interaction, PermissionFlagsBits } = require("discord.js");
 const AccessKey = require("../access_key");
-const database_state = require("../database");
-const socket_state = require("../websocket");
+const database_state = require("../services/database");
+const socket_state = require("../services/websocket");
 
 module.exports = {
 	data: new SlashCommandBuilder()

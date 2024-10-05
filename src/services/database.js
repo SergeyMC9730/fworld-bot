@@ -1,6 +1,6 @@
 const sqlite3 = require('sqlite3').verbose();
-const AccessKey = require("./access_key");
-const utils = require("./utils");
+const AccessKey = require("../access_key");
+const utils = require("../utils");
 
 console.log("I  initializing sqlite database");
 

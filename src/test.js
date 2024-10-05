@@ -1,5 +1,5 @@
 // setup database instance
-const database_state = require("./database");
+const database_state = require("./services/database");
 
 async function a() {
     const thing = await database_state.try_find_key("8726");

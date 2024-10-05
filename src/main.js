@@ -74,4 +74,4 @@ client.login(process.env.bot_token);
 const socket_state = require("./websocket");
 
 // setup database instance
-const database_state = require("./database");
+const database_state = require("./services/database");
